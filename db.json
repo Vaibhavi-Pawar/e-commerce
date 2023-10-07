@@ -1,0 +1,56 @@
+{
+  "seller": [
+    {
+      "name": "ABC",
+      "password1": "123",
+      "password2": "123",
+      "email": "abc@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Vaibhavi",
+      "password1": "1234",
+      "password2": "1234",
+      "email": "vaibhavi.pawar@linkcode.in",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "TVS Jupiter",
+      "price": "95000",
+      "color": "White",
+      "category": "Two wheeler",
+      "description": "Good performance",
+      "image": "https://images.carandbike.com/bike-images/colors/tvs/jupiter/tvs-jupiter-pristine-white.png?v=1588747344",
+      "id": 1
+    },
+    {
+      "name": "Realme",
+      "price": "19000",
+      "color": "Silver",
+      "category": "Mobile",
+      "description": "Good battery life.",
+      "image": "https://images.fonearena.com/blog/wp-content/uploads/2018/06/Realme-1-Silver-Limited-Edition-1024x768.jpg",
+      "id": 2
+    },
+    {
+      "name": "ipad",
+      "price": "90000",
+      "color": "Silver",
+      "category": "PC",
+      "description": "Good performance",
+      "image": "https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 ",
+      "id": 3
+    },
+    {
+      "name": "Intex",
+      "price": "14000",
+      "color": "Black",
+      "category": "TV",
+      "description": "Good performance",
+      "image": "https://www.intex.in/cdn/shop/products/1_9b8014ad-124e-4742-a628-9a4c4affe617.jpg?v=1648711109",
+      "id": 4
+    }
+  ]
+}
