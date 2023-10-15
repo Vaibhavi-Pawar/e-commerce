@@ -11,6 +11,7 @@ export class SellerAuthComponent implements OnInit
 {
   showLogin= false;
   authError: string = '';
+
   constructor(private seller:SellerService, private router: Router){  }
   
   ngOnInit():void{
@@ -32,9 +33,9 @@ export class SellerAuthComponent implements OnInit
         this.authError = "Email or password is not correct!";
       }
 
-    })
+    });
   }
-
+ 
   openLogin(){
     this.showLogin=true
   }

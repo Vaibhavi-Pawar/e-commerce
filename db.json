@@ -1,56 +1,293 @@
 {
   "seller": [
     {
-      "name": "ABC",
+      "name": "Vaibhavi",
+      "email": "vaibhavi@seller.com",
       "password1": "123",
       "password2": "123",
-      "email": "abc@gmail.com",
       "id": 1
-    },
-    {
-      "name": "Vaibhavi",
-      "password1": "1234",
-      "password2": "1234",
-      "email": "vaibhavi.pawar@linkcode.in",
-      "id": 2
     }
   ],
   "products": [
     {
-      "name": "TVS Jupiter",
-      "price": "95000",
-      "color": "White",
-      "category": "Two wheeler",
-      "description": "Good performance",
-      "image": "https://images.carandbike.com/bike-images/colors/tvs/jupiter/tvs-jupiter-pristine-white.png?v=1588747344",
-      "id": 1
-    },
-    {
-      "name": "Realme",
-      "price": "19000",
-      "color": "Silver",
+      "name": "Redmi 12 5G",
+      "price": "14999",
+      "color": "Black",
       "category": "Mobile",
-      "description": "Good battery life.",
-      "image": "https://images.fonearena.com/blog/wp-content/uploads/2018/06/Realme-1-Silver-Limited-Edition-1024x768.jpg",
-      "id": 2
-    },
-    {
-      "name": "ipad",
-      "price": "90000",
-      "color": "Silver",
-      "category": "PC",
-      "description": "Good performance",
-      "image": "https://images.pexels.com/photos/1334598/pexels-photo-1334598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 ",
+      "description": "(Jade Black, 6GB 128GB) India's 1st Snapdragon 4 Gen (Jade Black, 6GB 128GB) India's 1st Snapdragon 4 Gen 2",
+      "image": "https://m.media-amazon.com/images/I/41GsqdiCvOL._SX300_SY300_QL70_FMwebp_.jpg",
       "id": 3
     },
     {
-      "name": "Intex",
-      "price": "14000",
+      "name": "Smart Watch",
+      "price": "1099",
       "color": "Black",
-      "category": "TV",
-      "description": "Good performance",
-      "image": "https://www.intex.in/cdn/shop/products/1_9b8014ad-124e-4742-a628-9a4c4affe617.jpg?v=1648711109",
+      "category": "Watch",
+      "description": "Fire-Boltt Ninja Call Pro Plus 1.83\" Smart Watch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution",
+      "image": "https://m.media-amazon.com/images/I/41QzYzs+JuL._SY300_SX300_.jpg",
       "id": 4
+    },
+    {
+      "name": "Wired Mouse",
+      "price": "259",
+      "color": "Black",
+      "category": "Mouse",
+      "description": "Dell MS116 Wired Optical Mouse, 1000Dpi, Led Tracking, Scrolling Wheel, Plug and Play",
+      "image": "https://m.media-amazon.com/images/I/61onAgKP5gL._SX679_.jpg",
+      "id": 5
+    },
+    {
+      "name": "Wireless keyboard",
+      "price": "1121",
+      "color": "Black",
+      "category": "Keyboard",
+      "description": "Dell USB Wireless Keyboard and Mouse Set- KM3322W, Anti-Fade & Spill-Resistant Keys, up to 36 Month Battery Life, 3Y Advance Exchange Warranty, Black",
+      "image": "https://m.media-amazon.com/images/I/415yl0HeDQL.jpg",
+      "id": 6
+    },
+    {
+      "name": "Bluetooth",
+      "price": "1199",
+      "color": "Aqua",
+      "category": "Bluetooth",
+      "description": "boAt Rockerz 450 Bluetooth On Ear Headphones with Mic, Upto 15 Hours Playback, 40MM Drivers, Padded Ear Cushions, Integrated Controls and Dual Modes(Aqua Blue)",
+      "image": "https://m.media-amazon.com/images/I/61u1VALn6JL._SX522_.jpg",
+      "id": 7
+    },
+    {
+      "name": "Bluetooth",
+      "price": "999",
+      "color": "Green",
+      "category": "Bluetooth",
+      "description": "boAt Rockerz 255 Pro+ Bluetooth in Ear Earphones with Upto 60 Hours Playback, ASAP Charge, IPX7, Dual Pairing and Bluetooth v5.0(Teal Green)",
+      "image": "https://m.media-amazon.com/images/I/31OzHZJXJTL._SX300_SY300_QL70_FMwebp_.jpg",
+      "id": 8
+    },
+    {
+      "name": "Lipstick",
+      "price": "227",
+      "color": "Pink",
+      "category": "Lipstick",
+      "description": "Maybelline New York Lipstick, Matte Finish, Non-Sticky and Non-Drying, Sensational Liquid Matte, 21 Nude Nuance, 7ml",
+      "image": "https://m.media-amazon.com/images/I/215FhbYRnNL._SX300_SY300_QL70_FMwebp_.jpg",
+      "id": 9
+    },
+    {
+      "name": "Power Bank",
+      "price": "899",
+      "color": "White",
+      "category": "Power Bank",
+      "description": "10000 mAh 22.5W Fast Charging Lithium Polymer Power Bank | Charging Indicator + Type C Cable | Triple Output, White",
+      "image": "https://m.media-amazon.com/images/I/51b+iQl+6bL._SL1500_.jpg",
+      "id": 10
+    },
+    {
+      "name": "Seater",
+      "price": "13749",
+      "color": "Brown",
+      "category": "Seater",
+      "description": "Solimo Musca 1 Seater Fabric Recliner (Brown)",
+      "image": "https://m.media-amazon.com/images/I/71gGuLwD4RL._SX522_.jpg",
+      "id": 11
+    },
+    {
+      "name": "Smart Watch",
+      "price": "1099",
+      "color": "Pink",
+      "category": "Watch",
+      "description": "Fire-Boltt Ninja Call Pro Plus 1.83\" Smart Watch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution",
+      "image": "https://m.media-amazon.com/images/I/61WQsMHoQhL._SY450_.jpg",
+      "id": 12
+    },
+    {
+      "name": "Pen Drive",
+      "price": "349",
+      "color": "Silver",
+      "category": "Pen Drive",
+      "description": "HP v236w USB 2.0 64GB Pen Drive, Metal, Silver",
+      "image": "https://m.media-amazon.com/images/I/31febYa30qL._SX300_SY300_QL70_FMwebp_.jpg",
+      "id": 13
+    },
+    {
+      "name": "Laptop bag",
+      "price": "499",
+      "color": "Blue",
+      "category": "Bag",
+      "description": "Wesley Milestone 2.0 Casual Waterproof Laptop Backpack/Office Bag/School Bag/College Bag/Business Bag/Travel Backpack (Dimensions:13x18 inches) (Compatible with 15.6 inch laptop) 30 L (Blue & black)",
+      "image": "https://m.media-amazon.com/images/I/41zaQIbMRCL._SX300_SY300_QL70_FMwebp_.jpg",
+      "id": 14
+    },
+    {
+      "name": "Digital Magic Slate",
+      "price": "116",
+      "color": "Gray",
+      "category": "Electronic Note Pad",
+      "description": "Toy Imagine 8.5 inch LCD Writing Tablet for Kids Digital Magic Slate,Electronic Note Pad,Scribble Doodle Drawing Rough Pad,Best Birthday Gift for Boys & Girls",
+      "image": "https://m.media-amazon.com/images/I/61OB-zW3UwL._SY355_.jpg",
+      "id": 15
+    },
+    {
+      "name": "Lakme Rose Loose Face Powder",
+      "price": "149",
+      "color": "Pink",
+      "category": "Face Powder",
+      "description": "Lakme Rose Loose Face Powder, Matte Finish & Poreless Look, Oil Control & Sun Protection For Long Hours, Suitable for oily skin, Soft Pink, 40g",
+      "image": "https://m.media-amazon.com/images/I/41T7i6+c3pL._SY300_SX300_.jpg",
+      "id": 16
+    },
+    {
+      "name": "CC Cream",
+      "price": "110",
+      "color": "Pink",
+      "category": "Face Cream",
+      "description": "Lakme 9 to 5 CC Cream Mini, 01 - Beige, Light Face Makeup with Natural Coverage, SPF 30 - Tinted Moisturizer to Brighten Skin, Conceal Dark Spots, 9 g",
+      "image": "https://m.media-amazon.com/images/I/31Qf+ZB1TuL._SY300_SX300_.jpg",
+      "id": 17
+    },
+    {
+      "name": "Eyeshadow Palette",
+      "price": "195",
+      "color": "Brown",
+      "category": "Eye makeup palette",
+      "description": "Swiss Beauty Ultimate 9 Pigmented Colors Eyeshadow Palette Long Wearing And Easily Blendable Eye Makeup Palette Matte, Shimmery And Metallic Finish - Multicolor-04, 6G",
+      "image": "https://m.media-amazon.com/images/I/41JJo6BHmtL._SX300_SY300_QL70_FMwebp_.jpg",
+      "id": 18
+    },
+    {
+      "name": "Medical Box",
+      "price": "289",
+      "color": "White",
+      "category": "Medical Box",
+      "description": "D Inoru™ Medical Box, 1 Piece,Indoor Outdoor Medical Utility,Medicine Storage Box,Detachable Tray Medical Box Multi Purpose Regular Medicine, First Aid Box with Handle",
+      "image": "https://m.media-amazon.com/images/I/41D-p242U9L._SX355_.jpg",
+      "id": 19
+    },
+    {
+      "name": "Diabetes in Practice",
+      "price": "529",
+      "color": "Blue",
+      "category": "Book",
+      "description": "Diabetes in Practice",
+      "image": "https://m.media-amazon.com/images/I/51T0lPx7xbL._SY445_SX342_.jpg",
+      "id": 20
+    }
+  ],
+  "users": [
+    {
+      "name": "Sargam",
+      "email": "sargam@user.com",
+      "password": "1234",
+      "id": 1
+    }
+  ],
+  "cart": [
+    {
+      "name": "Redmi 12 5G",
+      "price": "14999",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "(Jade Black, 6GB 128GB) India's 1st Snapdragon 4 Gen (Jade Black, 6GB 128GB) India's 1st Snapdragon 4 Gen 2",
+      "image": "https://m.media-amazon.com/images/I/41GsqdiCvOL._SX300_SY300_QL70_FMwebp_.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 3,
+      "id": 1
+    },
+    {
+      "name": "Redmi 12 5G",
+      "price": "14999",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "(Jade Black, 6GB 128GB) India's 1st Snapdragon 4 Gen (Jade Black, 6GB 128GB) India's 1st Snapdragon 4 Gen 2",
+      "image": "https://m.media-amazon.com/images/I/41GsqdiCvOL._SX300_SY300_QL70_FMwebp_.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 3,
+      "id": 2
+    },
+    {
+      "name": "Redmi 12 5G",
+      "price": "14999",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "(Jade Black, 6GB 128GB) India's 1st Snapdragon 4 Gen (Jade Black, 6GB 128GB) India's 1st Snapdragon 4 Gen 2",
+      "image": "https://m.media-amazon.com/images/I/41GsqdiCvOL._SX300_SY300_QL70_FMwebp_.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 3,
+      "id": 3
+    },
+    {
+      "name": "Smart Watch",
+      "price": "1099",
+      "color": "Black",
+      "category": "Watch",
+      "description": "Fire-Boltt Ninja Call Pro Plus 1.83\" Smart Watch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution",
+      "image": "https://m.media-amazon.com/images/I/41QzYzs+JuL._SY300_SX300_.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 4,
+      "id": 4
+    },
+    {
+      "name": "Smart Watch",
+      "price": "1099",
+      "color": "Black",
+      "category": "Watch",
+      "description": "Fire-Boltt Ninja Call Pro Plus 1.83\" Smart Watch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution",
+      "image": "https://m.media-amazon.com/images/I/41QzYzs+JuL._SY300_SX300_.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 4,
+      "id": 5
+    },
+    {
+      "name": "Lipstick",
+      "price": "227",
+      "color": "Pink",
+      "category": "Lipstick",
+      "description": "Maybelline New York Lipstick, Matte Finish, Non-Sticky and Non-Drying, Sensational Liquid Matte, 21 Nude Nuance, 7ml",
+      "image": "https://m.media-amazon.com/images/I/215FhbYRnNL._SX300_SY300_QL70_FMwebp_.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 9,
+      "id": 6
+    },
+    {
+      "name": "Redmi 12 5G",
+      "price": "14999",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "(Jade Black, 6GB 128GB) India's 1st Snapdragon 4 Gen (Jade Black, 6GB 128GB) India's 1st Snapdragon 4 Gen 2",
+      "image": "https://m.media-amazon.com/images/I/41GsqdiCvOL._SX300_SY300_QL70_FMwebp_.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 3,
+      "id": 7
+    },
+    {
+      "name": "Eyeshadow Palette",
+      "price": "195",
+      "color": "Brown",
+      "category": "Eye makeup palette",
+      "description": "Swiss Beauty Ultimate 9 Pigmented Colors Eyeshadow Palette Long Wearing And Easily Blendable Eye Makeup Palette Matte, Shimmery And Metallic Finish - Multicolor-04, 6G",
+      "image": "https://m.media-amazon.com/images/I/41JJo6BHmtL._SX300_SY300_QL70_FMwebp_.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 18,
+      "id": 8
+    },
+    {
+      "name": "Smart Watch",
+      "price": "1099",
+      "color": "Pink",
+      "category": "Watch",
+      "description": "Fire-Boltt Ninja Call Pro Plus 1.83\" Smart Watch with Bluetooth Calling, AI Voice Assistance, 100 Sports Modes IP67 Rating, 240 * 280 Pixel High Resolution",
+      "image": "https://m.media-amazon.com/images/I/61WQsMHoQhL._SY450_.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 12,
+      "id": 9
     }
   ]
 }

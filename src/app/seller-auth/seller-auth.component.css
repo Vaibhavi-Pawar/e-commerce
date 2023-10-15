@@ -2,9 +2,9 @@
     text-align: center;
 }
 
-.sign-up h1, .login h1{
+.sign-up h3, .login h3{
     margin-bottom: 50px;
-    margin-top: 80px;
+    margin-top: 50px;
     color: blueviolet;
 }
 
@@ -15,4 +15,8 @@
     font-size: 14px;
     text-align: left;
     cursor: pointer;
+}
+
+.seller-auth{
+    border: 3px;
 }

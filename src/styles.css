@@ -13,6 +13,10 @@ body{
     margin: auto;
     flex-direction: column;
     width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid blueviolet;
+    border-radius: 1%;
+    padding: 40px;
 }
 
 .form-input{
@@ -35,4 +39,24 @@ body{
 
 .message-p{
     color: green;
+}
+
+.carousel-caption{
+    background-color: #00000082;
+    border-radius: 5px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 5px;
+}
+
+.invalid-input{
+    color: red;
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+button:disabled{
+    cursor: not-allowed;
 }

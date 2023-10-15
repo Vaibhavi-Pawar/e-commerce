@@ -2,8 +2,8 @@ table{
     text-align: left;
     color: blueviolet; 
     border-collapse: collapse;
+    margin-bottom: 100px;
 }
-
 
 img{
     width: 100px;

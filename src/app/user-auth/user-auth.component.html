@@ -1,0 +1,39 @@
+   <div class="user-auth">
+    <div *ngIf="!showLogin" class="sign-up">
+        <h3>User SignUp</h3>
+        <p class="error-p">{{authError}}</p>
+
+    <form class="common-form" #userSignUp="ngForm" (ngSubmit)="signUp(userSignUp.value)">
+
+        <input class="form-input" type="text" placeholder="Enter user name" name="name"  ngModel #name="ngModel" required>
+        <p class="invalid-input"><span *ngIf="name.invalid && name.touched">Please enter user name!!</span></p>
+
+        <input class="form-input" type="email" placeholder="Enter user email" name="email" ngModel #email="ngModel" required email>
+        <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please enter valid email address!!</span></p>
+        
+        <input class="form-input" type="password" #password="ngModel" placeholder="Enter user password" name="password" ngModel required minlength="2" maxlength="20">
+        <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Please enter valid password (more than 2 characters)</span></p>
+
+        <button [disabled]="userSignUp.invalid" class="form-button">SignUp</button>
+
+        <p>Already have an account? <br><a (click)="openLogin()">Click here to Login</a></p>
+    </form>
+    </div>
+
+
+    <div *ngIf="showLogin" class="login">
+        <h3>User Login</h3>
+
+    <form class="common-form" #userLogin="ngForm" (ngSubmit)="login(userLogin.value)">
+        <input class="form-input" type="email" placeholder="Enter user email" name="email" ngModel #email="ngModel" required email>
+        <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please enter valid email address!!</span></p>
+
+        <input class="form-input" type="password" placeholder="Enter user password" name="password1" ngModel #password="ngModel" required minlength="2" maxlength="20">
+        <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Please enter valid password!!</span></p>
+
+        <button [disabled]="userLogin.invalid" class="form-button">Login</button>
+        <p>Dont have an account? <br><a (click)="openSignUp()">Click here to create account</a></p>
+    </form>
+    </div>
+
+   </div> 
