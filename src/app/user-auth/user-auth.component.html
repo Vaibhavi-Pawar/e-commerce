@@ -1,39 +1,61 @@
-   <div class="user-auth">
-    <div *ngIf="!showLogin" class="sign-up">
-        <h3>User SignUp</h3>
-        <p class="error-p">{{authError}}</p>
-
-    <form class="common-form" #userSignUp="ngForm" (ngSubmit)="signUp(userSignUp.value)">
-
-        <input class="form-input" type="text" placeholder="Enter user name" name="name"  ngModel #name="ngModel" required>
-        <p class="invalid-input"><span *ngIf="name.invalid && name.touched">Please enter user name!!</span></p>
-
-        <input class="form-input" type="email" placeholder="Enter user email" name="email" ngModel #email="ngModel" required email>
-        <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please enter valid email address!!</span></p>
-        
-        <input class="form-input" type="password" #password="ngModel" placeholder="Enter user password" name="password" ngModel required minlength="2" maxlength="20">
-        <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Please enter valid password (more than 2 characters)</span></p>
-
-        <button [disabled]="userSignUp.invalid" class="form-button">SignUp</button>
-
-        <p>Already have an account? <br><a (click)="openLogin()">Click here to Login</a></p>
-    </form>
+<div class="user-auth">
+    <div *ngIf="!showLogin"  class="sign-up">
+     <h1>User Signup</h1>
+     <form #userSignUp="ngForm" class="common-form" (ngSubmit)="signUp(userSignUp.value)">
+       <input
+         type="text"
+         class="form-input"
+         name="name"
+         placeholder="Enter User Name"
+         ngModel
+       />
+       <input
+         type="text"
+         class="form-input"
+         name="email"
+         placeholder="Enter User Email"
+         ngModel
+       /><input
+       type="password"
+       class="form-input"
+       name="password"
+       placeholder="Enter User Password"
+       ngModel
+     />
+     <button class="form-button">Sign Up</button>
+     <p>Already Have Account ? <a (click)="openLogin()" >Click Here</a></p>
+     </form>
     </div>
-
-
-    <div *ngIf="showLogin" class="login">
-        <h3>User Login</h3>
-
-    <form class="common-form" #userLogin="ngForm" (ngSubmit)="login(userLogin.value)">
-        <input class="form-input" type="email" placeholder="Enter user email" name="email" ngModel #email="ngModel" required email>
-        <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Please enter valid email address!!</span></p>
-
-        <input class="form-input" type="password" placeholder="Enter user password" name="password1" ngModel #password="ngModel" required minlength="2" maxlength="20">
-        <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Please enter valid password!!</span></p>
-
-        <button [disabled]="userLogin.invalid" class="form-button">Login</button>
-        <p>Dont have an account? <br><a (click)="openSignUp()">Click here to create account</a></p>
-    </form>
+    <div *ngIf="showLogin"  class="login">
+     <h1>User Login</h1>
+     <form #userLogin="ngForm" class="common-form" (ngSubmit)="login(userLogin.value)">
+       <p class="error-p">{{authError}}</p>
+       <input
+         type="text"
+         class="form-input"
+         name="email"
+         placeholder="Enter User Email"
+         ngModel
+         email
+         #email="ngModel"
+         required
+       />
+       <p class="invalid-input"><span *ngIf="email.invalid && email.touched " >Please enter valid input</span></p>
+       <input
+       type="password"
+       class="form-input"
+       name="password"
+       placeholder="Enter User Password"
+       ngModel
+       minlength="2"
+       maxlength="20"
+       #password="ngModel"
+       required
+     />
+     <p class="invalid-input"><span *ngIf="password.invalid && password.touched " >Please enter valid input</span></p>
+     <button [disabled]="userLogin.invalid" class="form-button">Login</button>
+     <p>Want to Create Account ? <a (click)="openSignUp()" >Click Here</a></p>
+     </form>
     </div>
-
-   </div> 
+   </div>
+   
