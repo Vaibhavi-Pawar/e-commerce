@@ -180,30 +180,15 @@
       "id": 1
     }
   ],
-  "cart": [
+  "cart": [],
+  "orders": [
     {
-      "name": "Power Bank",
-      "price": "899",
-      "color": "White",
-      "category": "Power Bank",
-      "description": "10000 mAh 22.5W Fast Charging Lithium Polymer Power Bank | Charging Indicator + Type C Cable | Triple Output, White",
-      "image": "https://m.media-amazon.com/images/I/51b+iQl+6bL._SL1500_.jpg",
-      "quantity": 5,
+      "email": "sanavi@user.com",
+      "address": "K",
+      "contact": "",
+      "totalPrice": 3397,
       "userId": 1,
-      "productId": 10,
       "id": 1
-    },
-    {
-      "name": "Lipstick",
-      "price": "227",
-      "color": "Pink",
-      "category": "Lipstick",
-      "description": "Maybelline New York Lipstick, Matte Finish, Non-Sticky and Non-Drying, Sensational Liquid Matte, 21 Nude Nuance, 7ml",
-      "image": "https://m.media-amazon.com/images/I/215FhbYRnNL._SX300_SY300_QL70_FMwebp_.jpg",
-      "quantity": 1,
-      "productId": 9,
-      "userId": 1,
-      "id": 2
     }
   ]
 }
